@@ -11,9 +11,10 @@ namespace Robot.cs
         static void Main(string[] args)
         {
             Battleground battleground = new Battleground();
+            battleground.Welcome();
             battleground.run();
-
-            
         }
     }
-}
+}     
+    
+
